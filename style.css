@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    display: block;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .container {
+    height: 72px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    background-image: url('cheshire-county-hygiene-services.svg');
+    margin: 10px;
+    width: 119px;
+    height: 52px;
+   
+}
+h5 {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 18px;
+
+}
+header {
+    width:100%;
+    background-color:black;
+    height:72px;
+    position: fixed;
+    z-index: 999;
+}
+.features {
+    background-image: url('photo-1480714378408-67cf0d13bc1b-min.png');
+    height: 639px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+ .opacity .container {
+display: flex;
+max-width: 1000px;
+    margin: 0 auto;
+} 
+/* .opacity {
+    background-color: black;
+    opacity: 0.6;
+    height: 567px;
+    width: 100%;
+    position: relative;
+    top: 72px;
+    
+} */
+.text {
+    width: 70%;
+    top:75px;
+    position: relative;
+}
+.big {
+    background-image: url('cheshire-county-hygiene-services.svg');
+    width: 246px;
+    height: 107px;
+    background-size: contain;
+}
+ .features form {
+    top: 75px;
+    position: relative;
+    background-color: white;
+    color: black;
+  
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border-radius: 10px;
+    
+}
+h3 .header {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #F5F5F5;
+    height: 57px;
+    margin: 0 0;
+    padding: 30px;
+}
+.features form button {
+    background-color: #41D395;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    height: 57px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 33px;
+}
+label {
+    font-size: 9px;
+    display: inline-block;
+}
+input {
+    padding: 10px;
+    width: 80%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+}
+.social .container {
+    flex-direction: column;
+}
+p {
+    font-size: 14px;
+}
+.social h3 {
+   
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+.social-icons {
+    width: 70%;
+    display: inline-block;
+    
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    margin-top: 38px;
+    margin-left: 50px;
+    
+}
+.fcb {
+    background-image: url('facebook-logo.svg');
+    
+    }
+.insta {
+    background-image: url('instagram-logo.svg');
+}
+.tweet {
+    background-image: url('twitter.svg');
+
+}
+.pint {
+    background-image: url('pinterest.svg');
+}
+.group {
+    background-image: url('17904938883340447926.svg');
+}
+.about {
+    background-color: black;
+    color: white;
+}
